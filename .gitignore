@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+instance/
+_venv
+__pypackages__
+myenv/
+.mypy_cache/
+
+# Distribution / packaging
+.eggs/
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+MANIFEST
+
+# Log files and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Testing
+/tests/__pycache__
+.pytest_cache/
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+nosetests.xml
+pytest.xml
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.user
+
+# models
+coco.names
+yolov4.cfg
+yolov4.weights
+yolov8n.pt
+
+# logs
+logs.txt
